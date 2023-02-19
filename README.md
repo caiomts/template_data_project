@@ -9,8 +9,15 @@ You can save the script in the folder you save your projects
 or chmod-x and put the script in your PATH. The script works
 with only one argument - your new project name.
 
+### a. Running from root directory
+
 ```commandline
 $ . dataproject {your project name}
+```
+### b. Running from PATH
+
+```commandline
+$ dataproject {your project name}
 ```
 
 ## Template
