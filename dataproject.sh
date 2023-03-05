@@ -187,8 +187,8 @@ config() {
 	echo "$tests" > $path_config/tests.sh & \
 	echo "$init" > $path_config/__init__.py & \
 	echo "$ci_git" > $path_config/ci.yaml & \
-	read -p 'name : ' -t 20 name && \
-        read -p 'email : ' -t 20 email && \
+	read -p 'pyproject.toml name : ' -t 20 name && \
+        read -p 'pyproject.toml email : ' -t 20 email && \
 	config "${name}" "${email}" > $path_config/config.txt  ) }
 
 
